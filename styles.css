@@ -27,23 +27,22 @@ header p {
 }
 
 .language-switch {
-    margin-top: 20px;
+    margin: 30px auto 30px auto
 }
 
 .language-switch a {
     color: #fff;
-    font-weight: bold;
     text-decoration: none;
     font-size: 25px;
-    margin: 0 10px;
-    border: 1px solid transparent; /* Add a transparent border */
-    padding: 8px; /* Add some padding for the rectangle effect */
-    border-radius: 8px; /* Optional: Add rounded corners */
+    margin: 1 10px;
+    border: 3px solid transparent;
+    padding: 7px;
+    border-radius: 15px;
 }
 
 .language-switch a.active {
-    border-color: #fff; /* Change the border color to white when active */
-    font-size: 30px;
+    border-color: #fff;
+    font-size: 35px;
 }
 
 .content {
