@@ -34,12 +34,16 @@ header p {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     margin: 0 10px;
+    border: 1px solid transparent; /* Add a transparent border */
+    padding: 8px; /* Add some padding for the rectangle effect */
+    border-radius: 8px; /* Optional: Add rounded corners */
 }
 
 .language-switch a.active {
-    color: #ffd700;
+    border-color: #fff; /* Change the border color to white when active */
+    font-size: 30px;
 }
 
 .content {
